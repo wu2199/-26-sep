@@ -28,7 +28,8 @@ Why Lexical Redundancy
 * LLM vocabularies contain synonym clusters, e.g., ocean vs. sea.
 * WatME distributes words in such clusters mutually exclusively between red/green lists, preventing entire semantic groups from being blocked.
 * This retains lexical diversity during generation and improves model expressiveness.
-￼
+￼<img width="351" height="291" alt="Question" src="https://github.com/user-attachments/assets/84961368-4c72-4d11-9d18-8df6270fa3f2" />
+
 ---
 
 Method
