@@ -117,3 +117,40 @@ Redundancy types: - Appearance redundancy palette texture noise seed style vec
 
 Embedding only bias green logits with δ red untouched outputs statistically skew to green detectable signal keep equivalent options minimal quality loss
 Detection reconstruct red/green via key count actual green hits vs random baseline z-score or AUROC significantly higher → watermark present
+
+StoryBlender: Controllable 3D Storyboard Generation using 3D/Geometry aware VLM Agents
+
+3D Storyboard Elements
+* Story Flow: A series of pictures showing how the story moves from one moment to the next.
+* Layout: Where people, objects, and background parts are placed to show depth and size.
+* Camera: Where the camera is, how it moves or turns, and how it shows depth.
+* Characters: Main poses and actions that show what people feel and do.
+* Lighting: Notes on where the light comes from, how strong it is, and its color to set the mood.
+* Sound: Space to add words, sound effects, or music that match the scene.
+* Notes: Extra details like how long a shot lasts or if special effects are needed.
+
+Advantages of 3D storyboarding
+1. Storyboard design is similar to rough drafting, requiring less detailed models.
+2. I currently have some 2D storyboard papers and products, and some work on 3D scene generation, but (probably) no 3D storyboarding. Piecing the two together will give me a rough idea.
+3. Training data and models don't seem to be necessary; everything can be done using the API.
+4. This will be helpful for future 3D animation generation.
+
+https://github.com/ahujasid/blender-mcp
+Configuring the local environment
+￼
+￼<img width="538" height="173" alt="Pasted Graphic 3" src="https://github.com/user-attachments/assets/115353b2-e7d8-455c-909c-ab1c218a75bf" />
+
+￼<img width="472" height="352" alt="Pasted Graphic 4" src="https://github.com/user-attachments/assets/8fd3dc52-9b05-43b3-8585-aa6ff1560a52" />
+
+
+￼<img width="540" height="344" alt="Pasted Graphic 6" src="https://github.com/user-attachments/assets/d48697c2-f01d-4783-bc97-0126f8d2cd18" />
+
+<img width="307" height="202" alt="Pasted Graphic 5" src="https://github.com/user-attachments/assets/3b66d68a-5773-42f1-9382-c2f433ac3d4f" />
+
+TODO
+1. Overall, the project is engineering-oriented and lacks much academic innovation. Further work is needed (mathematics, graphics, CV).
+	-1. Interactivity
+	-2. Agent error accumulation
+2. Blender MCP is still insufficient; a large number of additional features need to be implemented to meet the needs.
+3. The dataset and evaluation metrics are not readily available.
+
